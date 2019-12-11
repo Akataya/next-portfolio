@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static\\development\\pages\\index.js.6a6489cca99a9e9c6cdc.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["const Index = () => <div>Welcome to the page.</div>;\r\n\r\nexport default Index;\r\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}
