@@ -13,14 +13,6 @@ Router.onRouteChangeError = () => NProgress.done();
 
 export default ({ children, title }) => (
   <div className="root">
-    <Head>
-      <title>NextPortfolio</title>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
-      ></link>
-    </Head>
-
     <header>
       <Link href="/">
         <a>Home</a>
@@ -40,7 +32,7 @@ export default ({ children, title }) => (
     <footer>&copy; {new Date().getFullYear()}</footer>
 
     <style jsx>{`
-      .root: {
+      .root {
         display: flex;
         justify-content: center;
         align-items: center;
